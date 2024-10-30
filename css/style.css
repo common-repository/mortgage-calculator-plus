@@ -1,0 +1,92 @@
+
+@media screen and (min-width: 480px) {
+	.mcplus_container {
+		width:100%;
+	}
+}
+@media screen and (min-width: 1366px) {
+	.mcplus_container {
+		width:100%;
+	}
+
+}
+
+.mcplus_widget_container {
+	width:100%;
+}
+
+
+#mcplus_widget_img {
+	padding: 0 0 !important;
+	margin: 0 0 !important;
+}
+
+.mcplus_tdRow {
+}
+
+.tdResultRow  .mcplus_dollar {
+	font-weight:bold !important;
+}
+
+.mcplus_tbldiv {
+	background:inherit !important;
+}
+
+.mcplus_tdrowdiv label {
+	display:block;
+	border:none !important;
+	font-size:1em ;
+	color:#242424 !important;
+	font-family:inherit !important;
+	margin:.25em !important;
+	text-align:left;
+	float:left;
+}
+
+.mcplus_tdrowdiv input[type="text"]{
+	display:block;
+	font-family:sans-serif !important;
+	font-weight:600 !important;
+	font-size:1em !important;
+	padding: .5em  !important;
+	margin-bottom:.5em;
+	background-color:#f8f8f8 !important;
+	color:#242424 !important;
+	border:1px solid #2222224f !important;
+	border-radius: 3px;
+	width:100%;
+	float:left;
+}
+
+.mcplus_tbldiv td, .mcplus_tbldiv form, .mcplus_tbldiv table{
+	border:none !important;
+	padding: .25em .25em !important;
+	color:#242424 !important;
+	font-family:sans-serif !important;
+	margin:auto 2px !important;
+}
+
+
+.mcplus_tbldiv input[type="submit"]{
+	width:auto !important;
+	min-width:80px !important;
+	margin: 0 !important;
+	font-weight:500 !important;
+	padding:inherit;
+	background: inherit !important;
+	background-color:#4499ff0f !important;
+	font-size:1.25em !important;
+	cursor:pointer !important;
+	color:#242424 !important;
+	border:1px solid #2222224f !important;
+	border-radius: 3px;
+}
+
+.mcplus_dollar:before  {
+	content: "$";
+}
+.mcplus_dollar {
+	text-align:right;
+}
+
+
